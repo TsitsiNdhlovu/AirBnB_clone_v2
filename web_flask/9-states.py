@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 '''A simple Flask web application.
+=======
+'''A flask web application.
+>>>>>>> 622eaf7cee9a5e80fa124a9d76f2ced08e9b2a4d
 '''
 from flask import Flask, render_template
 
