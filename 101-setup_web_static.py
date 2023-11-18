@@ -89,7 +89,7 @@ file { '/etc/nginx/sites-available/default':
 		try_files \$uri \$uri/ =404;
 	}
 	if (\$request_filename ~ redirect_me){
-		rewrite ^ https://sketchfab.com/bluepeno/models permanent;
+		rewrite ^ https://wilpowa.tech permanent;
 	}
 	location = /404.html {
 		root /var/www/error/;

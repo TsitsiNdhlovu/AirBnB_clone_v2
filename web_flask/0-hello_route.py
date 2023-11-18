@@ -6,11 +6,9 @@ from flask import Flask
 
 app = Flask(__name__)
 '''The Flask application instance.'''
-app.url_map.strict_slashes = False
+@app.route('/airbnb-onepage/', strict_slashes = False)
 
-
-@app.route('/')
-def index():
+def hello_hbnb():
     '''The home page.'''
     return 'Hello HBNB!'
 
